@@ -22,5 +22,6 @@ $ curl -Lo- https://bit.ly/janus-bootstrap | bash
 Run install script to set up symlinks in home directory.
 
 ```bash
-$ directory/to/vimconfig/install.sh
+$ cd directory/to/vimconfig/
+$ ./install.sh
 ```

@@ -1,0 +1,2 @@
+set shell=/bin/bash
+call janus#disable_plugin('vroom')

@@ -21,6 +21,7 @@ noremap <leader>ss :VCSStatus<CR>
 noremap <leader>sc :VCSCommit
 
 "notes
+let g:notes_directory = '~/Documents/vim-notes'
 noremap <leader>nc :Note cms<CR>
 noremap <leader>np :Note Proteus<CR>
 noremap <leader>ns :Note scratch<CR>

@@ -16,3 +16,15 @@
 [submodule "vim-vroom"]
 	path = vim-vroom
 	url = https://github.com/jffjs/vim-vroom.git
+[submodule "paredit.vim"]
+	path = paredit.vim
+	url = https://github.com/vim-scripts/paredit.vim.git
+[submodule "vim-fireplace"]
+	path = vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule "vim-classpath"]
+	path = vim-classpath
+	url = https://github.com/tpope/vim-classpath.git
+[submodule "vim-clojure-static"]
+	path = vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static.git

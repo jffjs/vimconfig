@@ -2,3 +2,4 @@ set guifont=Inconsolata:h16
 set lines=60 columns=180
 set guioptions-=L
 set guioptions-=r
+set guioptions=-t

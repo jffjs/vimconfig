@@ -1,0 +1,7 @@
+Fast Debugger (ruby-debug-ide 0.4.17.beta14, ruby-debug-base 0.11.30.pre10) listens on 127.0.0.1:39767
+Uncaught exception: undefined method `server' for main:Object
+	/Users/jsmith3/work/ui/src/script/server:3:in `<top (required)>'
+	/Users/jsmith3/.rvm/gems/ruby-1.9.3-p392@r22/bin/rdebug-ide:19:in `load'
+	/Users/jsmith3/.rvm/gems/ruby-1.9.3-p392@r22/bin/rdebug-ide:19:in `<main>'
+	/Users/jsmith3/.rvm/gems/ruby-1.9.3-p392@r22/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jsmith3/.rvm/gems/ruby-1.9.3-p392@r22/bin/ruby_noexec_wrapper:14:in `<main>'

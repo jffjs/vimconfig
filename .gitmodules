@@ -28,3 +28,6 @@
 [submodule "vim-clojure-static"]
 	path = vim-clojure-static
 	url = https://github.com/guns/vim-clojure-static.git
+[submodule "vim-ruby-debugger"]
+	path = vim-ruby-debugger
+	url = https://github.com/astashov/vim-ruby-debugger.git

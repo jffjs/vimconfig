@@ -2,16 +2,29 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" enter normal mode
+inoremap jk <esc>
+inoremap <esc> <nop>
+" move between windows
 noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
+" move current line down one
+noremap - ddp
+" move current line up one
+noremap _ ddkkp
+" upcase current word in insert mode
+inoremap <c-u> <esc>vawUA
+" work with vimrc (change this to $MYVIMRC after migrating from janus)
+nnoremap <leader>ev :split ~/.vimrc.after<CR>
+nnoremap <leader>sv :source ~/.vimrc.after<CR>
+
+" BufferGator
+noremap <leader>bf :BuffergatorToggle<CR>
 
 " NERDtree
 noremap <leader>nt :NERDTreeToggle<CR> :NERDTreeMirror<CR>
-
-" Ctrl-P
-let g:ctrlp_working_path_mode = 0
 
 " vcscommand
 noremap <leader>sa :VCSAnnotate<CR>
@@ -19,6 +32,9 @@ noremap <leader>sd :VCSVimDiff<CR>
 noremap <leader>sr :VCSRevert
 noremap <leader>ss :VCSStatus<CR>
 noremap <leader>sc :VCSCommit
+
+" Ctrl-P
+let g:ctrlp_working_path_mode = 0
 
 "notes
 let g:notes_directory = '~/Documents/vim-notes'

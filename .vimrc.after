@@ -53,3 +53,8 @@ let g:vroom_use_bundle_exec = 0
 " vim-dispatch
 autocmd FileType ruby let b:dispatch = 'rspec %'
 noremap <leader>d :Dispatch<CR>
+
+" use the silver search in place of ack
+if executable("ag")
+  let g:ackprg = 'ag --nogroup --nocolor --column'
+endif

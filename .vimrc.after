@@ -58,3 +58,6 @@ noremap <leader>d :Dispatch<CR>
 if executable("ag")
   let g:ackprg = 'ag --nogroup --nocolor --column'
 endif
+
+" powerline
+let g:Powerline_symbols = 'fancy'

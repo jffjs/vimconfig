@@ -17,6 +17,8 @@ Install [Janus](https://github.com/carlhuda/janus)
 $ curl -Lo- https://bit.ly/janus-bootstrap | bash
 ```
 
+Install fonts in fonts directory
+
 ## Install
 
 Run install script to set up symlinks in home directory.

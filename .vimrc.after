@@ -45,10 +45,12 @@ noremap <leader>ns :Note scratch<CR>
 " vim-ruby-debugger
 noremap <leader>n  :call ruby_debugger#load_debugger() <bar> call g:RubyDebugger.next()<CR>
 let g:ruby_debugger_progname = 'mvim'
+let g:ruby_debugger_debug_mode=1
 
 " vim-vroom - my fork: https://github.com/jffjs/vim-vroom
 let g:vroom_use_dispatch = 1
 let g:vroom_use_bundle_exec = 0
+let g:vroom_spec_command = 'rspec --drb '
 
 " vim-dispatch
 autocmd FileType ruby let b:dispatch = 'rspec %'

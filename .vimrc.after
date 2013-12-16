@@ -35,6 +35,10 @@ noremap <leader>sc :VCSCommit
 
 " Ctrl-P
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\.git$\|\.hg$\|\.svn$\|node_modules$\|coverage$\|build$',
+    \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
+    \ }
 
 "notes
 let g:notes_directory = '~/Documents/vim-notes'

@@ -1,6 +1,8 @@
 syntax enable
+set nowrap
 set background=dark
 colorscheme solarized
+
 
 " enter normal mode
 inoremap jk <esc>
@@ -36,7 +38,7 @@ noremap <leader>sc :VCSCommit
 " Ctrl-P
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_custom_ignore = {
-    \ 'dir':  '\.git$\|\.hg$\|\.svn$\|node_modules$\|coverage$\|build$',
+    \ 'dir':  '\.git$\|\.hg$\|\.svn$\|node_modules$\|coverage$\|build$\|doc$',
     \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
     \ }
 
